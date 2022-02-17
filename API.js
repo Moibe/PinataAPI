@@ -1,6 +1,4 @@
-//const axios = require('axios');
-
-
+const axios = require('axios');
 
 const testAuthentication = () => {
     const url = `https://api.pinata.cloud/data/testAuthentication`;
@@ -21,4 +19,4 @@ const testAuthentication = () => {
         });
 };
 
-document.getElementById("submit_mint").onclick = testAuthentication;
+//document.getElementById("submit_mint").onclick = testAuthentication;
