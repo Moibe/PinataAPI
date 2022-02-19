@@ -1,5 +1,5 @@
-const axios = require('axios');
 
+const axios = require('axios');
 const testAuthentication = () => {
     const url = `https://api.pinata.cloud/data/testAuthentication`;
     return axios
